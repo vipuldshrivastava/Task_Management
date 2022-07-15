@@ -1,0 +1,59 @@
+name: flutter_task_management
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get_storage:
+  get:
+  flutter_local_notifications: 
+  flutter_native_timezone: 
+  date_picker_timeline: 
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  intl:
+  sqflite:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: poppins-medium
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+    - family: poppins-semibold
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+    - family: inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
